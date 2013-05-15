@@ -1,0 +1,8 @@
+# This file provides instructions for packaging.
+
+`Acme-PPIx-MetaSyntactic`
+	perl_version_from m`Acme::PPIx::MetaSyntactic`;
+	version_from      m`Acme::PPIx::MetaSyntactic`;
+	readme_from       m`Acme::PPIx::MetaSyntactic` ;
+	.
+
