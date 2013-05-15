@@ -4,5 +4,12 @@
 	perl_version_from m`Acme::PPIx::MetaSyntactic`;
 	version_from      m`Acme::PPIx::MetaSyntactic`;
 	readme_from       m`Acme::PPIx::MetaSyntactic` ;
+	requires          p`Acme::MetaSyntactic 1.000`;
+	requires          p`Moo 1.002000`;
+	requires          p`PPI 1.215`;
+	requires          p`Perl::Critic::Utils 1.118`;
+	requires          p`Type::Utils 0.001`;
+	requires          p`Types::Standard 0.001`;
+	requires          p`namespace::sweep 0.006`;
 	.
 
