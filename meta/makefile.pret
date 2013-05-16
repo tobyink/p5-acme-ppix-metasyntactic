@@ -5,6 +5,7 @@
 	version_from      m`Acme::PPIx::MetaSyntactic`;
 	readme_from       m`Acme::PPIx::MetaSyntactic` ;
 	requires          p`Acme::MetaSyntactic 1.000`;
+	requires          p`Acme::MetaSyntactic::haddock 0`;
 	requires          p`Moo 1.002000`;
 	requires          p`PPI 1.215`;
 	requires          p`Perl::Critic::Utils 1.118`;

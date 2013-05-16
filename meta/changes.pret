@@ -4,3 +4,9 @@
 	issued  2013-05-15;
 	label   "Initial release".
 
+`Acme-PPIx-MetaSyntactic 0.002 cpan:TOBYINK`
+	issued  2013-05-16;
+	changeset [
+		item "Add missing dependency on Acme::MetaSyntactic::haddock."^^Packaging;
+	].
+
