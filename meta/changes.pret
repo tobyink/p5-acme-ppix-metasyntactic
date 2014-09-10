@@ -10,3 +10,10 @@
 		item "Add missing dependency on Acme::MetaSyntactic::haddock."^^Packaging;
 	].
 
+
+`Acme-PPIx-MetaSyntactic 0.003 cpan:TOBYINK`
+	issued    2014-09-10;
+	changeset [
+		item "Switch to Dist::Inkt."^^Packaging;
+	].
+
