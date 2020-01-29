@@ -1,6 +1,6 @@
 package Acme::PPIx::MetaSyntactic;
 
-use 5.010001;
+use 5.008;
 use Moo;
 use namespace::sweep;
 no warnings qw( void once uninitialized numeric );
