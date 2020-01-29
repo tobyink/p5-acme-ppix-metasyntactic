@@ -4,10 +4,9 @@
 	deps:runtime-requirement         [ deps:on "perl 5.008"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "Acme::MetaSyntactic 1.000"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "Acme::MetaSyntactic::haddock 0"^^deps:CpanId ];
-	deps:runtime-requirement         [ deps:on "Moo 1.002000"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Moo 2.000000"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "PPI 1.215"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "PPIx::Utils"^^deps:CpanId ];
-	deps:runtime-requirement         [ deps:on "Types::Standard 0.001"^^deps:CpanId ];
-	deps:runtime-requirement         [ deps:on "namespace::sweep 0.006"^^deps:CpanId ];
-	deps:runtime-requirement         [ deps:on "Type::Utils 0.001"^^deps:CpanId ].
+	deps:runtime-requirement         [ deps:on "Types::Standard 1.004"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Type::Utils 1.004"^^deps:CpanId ].
 
