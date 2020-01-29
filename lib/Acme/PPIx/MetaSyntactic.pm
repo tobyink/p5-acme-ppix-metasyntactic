@@ -11,7 +11,7 @@ BEGIN {
 }
 
 use Acme::MetaSyntactic;
-use Perl::Critic::Utils qw( is_perl_builtin is_function_call );
+use PPIx::Utils qw( is_perl_builtin is_function_call );
 use PPI;
 
 use Types::Standard -types;
