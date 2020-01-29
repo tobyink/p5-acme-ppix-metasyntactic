@@ -9,7 +9,7 @@ no warnings qw(uninitialized once numeric);
 
 BEGIN {
 	$Acme::PPIx::MetaSyntactic::AUTHORITY = 'cpan:TOBYINK';
-	$Acme::PPIx::MetaSyntactic::VERSION   = '0.003';
+	$Acme::PPIx::MetaSyntactic::VERSION   = '0.004';
 }
 
 use Acme::MetaSyntactic;

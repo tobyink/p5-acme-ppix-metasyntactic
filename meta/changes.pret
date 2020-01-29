@@ -10,10 +10,17 @@
 		item "Add missing dependency on Acme::MetaSyntactic::haddock."^^Packaging;
 	].
 
-
 `Acme-PPIx-MetaSyntactic 0.003 cpan:TOBYINK`
 	issued    2014-09-10;
 	changeset [
 		item "Switch to Dist::Inkt."^^Packaging;
+	].
+
+`Acme-PPIx-MetaSyntactic 0.004 cpan:TOBYINK`
+	issued    2020-01-29;
+	changeset [
+		item "Fix for document trigger getting called too early for theme attribute to have been initialized."^^Bugfix;
+		item "Use PPIx::Utils instead of Perl::Critic::Utils."^^Change;
+		item "General modernization, minor cleanups, etc."^^Change;
 	].
 
