@@ -38,7 +38,6 @@ has document => (
 	isa      => $Document,
 	coerce   => 1,
 	required => 1,
-	trigger  => 1,
 );
 
 has theme => (
@@ -110,7 +109,7 @@ sub _build_already_used
 	};
 }
 
-sub _trigger_document
+sub BUILD
 {
 	my $self = shift;
 	$self->_relabel_subs;
